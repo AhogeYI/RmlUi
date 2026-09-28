@@ -1,0 +1,6 @@
+# Byte-exact policy: blobs in this repository keep their original line endings
+# (upstream stores most files as LF, a few as CRLF). Disable any client-side
+# conversion so that diffs against upstream and re-vendored snapshots compare
+# byte-for-byte. Applies to checkouts from this fork only; upstream blobs are
+# never rewritten.
+* -text
