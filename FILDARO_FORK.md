@@ -13,9 +13,9 @@ pruned, unversioned vendored snapshot.
 | `master` | Pristine mirror of `upstream/master`. Never committed to directly; moves only by fetching the read-only remote. |
 | `fildaro` | Downstream line. Based on a recorded upstream commit, carries the downstream patches and additive build files listed below. Product release pins reference commits on this branch. |
 
-The `upstream` remote is read-only (push URL is disabled). Nothing from this
-repository is ever pushed anywhere by automation; see the workspace rules in
-the environment repository.
+The `upstream` remote is read-only (push URL is disabled). This fork's
+public repository is maintained by the Fildaro project; its branches are
+pushed by the maintainer, never by automation.
 
 ## Downstream changes
 
